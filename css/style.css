@@ -1,0 +1,35 @@
+body{
+    background-color: #ffff;
+}
+.upper{
+    padding: 120px 0;
+    /* width: 100vh; */
+    /* padding-bottom: 200px */
+}
+
+.label img{
+    width: 500px;
+}
+.bg{
+    background-color: #f9f8fe;
+}
+.second-bg{
+    background-color: #575989;
+    color: #fff;
+    padding: 90px;
+}
+.card{
+    background-color: #ffff;
+    width: 400px;
+    /* padding: 26px; */
+    
+}
+.card img{
+    width: 75px;
+    border-radius: 70px;
+}
+.profile{
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+}
