@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+:root{
+    --primary-light-blue : hsl(238, 22%, 44%);
+    --primary-dark-blue :hsl(243, 87%, 12%);
+}
 body{
     background-color: #ffff;
+    font-family: 'Open Sans';
+    
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: var(--primary-dark-blue);
 }
 .upper{
     padding: 120px 0;
@@ -8,7 +21,7 @@ body{
 }
 
 .label img{
-    width: 500px;
+    width: 100%;
 }
 .bg{
     background-color: #f9f8fe;
