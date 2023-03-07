@@ -3,6 +3,14 @@
 :root{
     --primary-light-blue : hsl(238, 22%, 44%);
     --primary-dark-blue :hsl(243, 87%, 12%);
+
+    --accent-bright-blue: hsl(224, 93%, 58%);
+    --accent-moderate-cyan: hsl(170, 45%, 43%);
+
+    --light-grayish-blue: hsl(240, 75%, 98%);
+    --light-gray: hsl(0, 0%, 75%);
+
+    --active-state:#517bec;
 }
 body{
     background-color: #ffff;
@@ -11,8 +19,9 @@ body{
 }
 h1,h2,h3,h4,h5{
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
+    font-weight: bolder;
     color: var(--primary-dark-blue);
+    line-height: 40px;
 }
 .upper{
     padding: 120px 0;
@@ -23,13 +32,22 @@ h1,h2,h3,h4,h5{
 .label img{
     width: 100%;
 }
-.bg{
-    background-color: #f9f8fe;
+.section-bg{
+    background-image: url(../images/bg-curve-desktop.svg);
+    padding-top: 80px;
+    padding-bottom:50px ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .second-bg{
-    background-color: #575989;
+    background-color: var(--primary-light-blue);
     color: #fff;
     padding: 90px;
+}
+
+.cta{
+    color: #0bcc58;
 }
 .card{
     background-color: #ffff;
@@ -38,11 +56,46 @@ h1,h2,h3,h4,h5{
     
 }
 .card img{
-    width: 75px;
+    width: 50px;
     border-radius: 70px;
 }
 .profile{
     display: flex;
-    /* justify-content: space-around; */
-    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
 }
+
+.cta-form{
+    padding: 0px 100px;
+}
+
+.btn-flyo{
+    background-color: var(--accent-bright-blue);
+    color: var(--light-grayish-blue);
+    padding:10px 50px;
+}
+.btn-flyo:hover{
+    background-color:var(--active-state) ;
+    color: var(--light-grayish-blue);
+}
+
+footer{
+    background-color: var(--primary-dark-blue);
+    padding: 70px 50px;
+}
+@media only screen and (max-width: 600px) {
+    .upper .intro-text{
+        padding: 10px 30px;
+        text-align: center;
+    }
+
+    .section-bg{
+        background-image: url(../images/bg-curve-mobile.svg);
+        padding-top: 80px;
+        padding-bottom:50px ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+    
+  }
