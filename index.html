@@ -17,6 +17,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/style.css" />
 
     <title>Frontend Mentor</title>
@@ -24,7 +25,7 @@
   <body>
     <header>
       <nav
-        class="navbar navbar-expand-lg bg-body-tertiary navbar-light px-5 justify-content-between"
+        class="navbar navbar-expand-lg bg-body-tertiary navbar-light px-5 justify-content-between py-4"
       >
         <a class="navbar-brand" href="#">
           <img width="120" src="images/logo.svg" alt="" />
@@ -171,12 +172,44 @@
 
     <footer>
       <div class="container">
-        <img src="images/logo.svg" alt="">
+        <img class="mb-4" src="images/logo.svg" alt="">
         <div class="row">
-          <div class="col-md-3"></div>
-          <div class="col-md-3"></div>
-          <div class="col-md-3"></div>
-          <div class="col-md-3"></div>
+          <div class="col-md-3">
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a class="nav-link p-0 text-white" href="tel:+2347041077885">
+                  <img src="images/icon-phone.svg" alt=""> 
+                  phone: +1 543-343-5355</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a class="nav-link p-0 text-white"href="email:to"> 
+                  <img src="images/icon-email.svg" alt="">
+                  example@fylo.com</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a class="nav-link p-0 text-white" href="#"> About us</a></li>
+              <li class="nav-item mb-2"><a class="nav-link p-0 text-white"href="#"> jobs</a></li>
+              <li class="nav-item mb-2"><a class="nav-link p-0 text-white" href="#"> Press</a></li>
+              <li class="nav-item mb-2"><a class="nav-link p-0 text-white"href="#"> Blog</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a class="nav-link p-0 text-white" href="#">Contact us</a></li>
+              <li class="nav-item mb-2"><a class="nav-link p-0 text-white"href="#"> Terms</a></li>
+              <li class="nav-item mb-2"><a class="nav-link p-0 text-white" href="#"> privacy</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <div class="d-flex">
+              <a href="#" class="footer-icon nav-link"><i class='bx bxl-facebook'></i></a>
+              <a href="#" class="footer-icon nav-link"><i class='bx bxl-twitter'></i></a>
+              <a href="#" class="footer-icon nav-link"><i class='bx bxl-instagram'></i></a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
 :root{
     --primary-light-blue : hsl(238, 22%, 44%);
     --primary-dark-blue :hsl(243, 87%, 12%);
@@ -24,7 +25,7 @@ h1,h2,h3,h4,h5{
     line-height: 40px;
 }
 .upper{
-    padding: 120px 0;
+    padding: 50px 0;
     /* width: 100vh; */
     /* padding-bottom: 200px */
 }
@@ -82,6 +83,13 @@ h1,h2,h3,h4,h5{
 footer{
     background-color: var(--primary-dark-blue);
     padding: 70px 50px;
+}
+footer .footer-icon{
+    border: 1px solid var(--light-gray);
+    border-radius: 50px;
+    color: var(--light-gray);
+    padding: 5px 10px;
+    margin: 0px 5px;
 }
 @media only screen and (max-width: 600px) {
     .upper .intro-text{
