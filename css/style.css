@@ -29,6 +29,17 @@ h1,h2,h3,h4,h5{
     /* width: 100vh; */
     /* padding-bottom: 200px */
 }
+.upper .form{
+    display: flex;
+    gap: 10px;
+}
+.upper .form .email-input{
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    width: 70%;
+    /* height: 30px; */
+}
 
 .label img{
     width: 100%;
@@ -47,8 +58,9 @@ h1,h2,h3,h4,h5{
     padding: 90px;
 }
 
-.cta{
+.cta a{
     color: #0bcc58;
+    
 }
 .card{
     background-color: #ffff;
@@ -73,7 +85,7 @@ h1,h2,h3,h4,h5{
 .btn-flyo{
     background-color: var(--accent-bright-blue);
     color: var(--light-grayish-blue);
-    padding:10px 50px;
+    padding:10px 20px;
 }
 .btn-flyo:hover{
     background-color:var(--active-state) ;
@@ -96,14 +108,28 @@ footer .footer-icon{
         padding: 10px 30px;
         text-align: center;
     }
-
-    .section-bg{
-        background-image: url(../images/bg-curve-mobile.svg);
-        padding-top: 80px;
-        padding-bottom:50px ;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: top center;
+    .upper .form{
+        flex-direction: column;
     }
-    
+    .upper .form .email-input{
+        padding: 10px;
+        width: 100%;
+        
+        
+    }
+    .second-bg{
+        padding: 30px;
+        text-align: center;
+    }
+    .cta-form{
+        padding: 30px;
+    }
+    .cta-form .btn{
+        width: 100%;
+    }
+    .cta{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
   }
